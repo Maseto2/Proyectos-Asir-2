@@ -1,0 +1,341 @@
+/*body {
+    background-image: url("../img/velodromo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+/* FORMULARIOS */
+
+.formulario form {
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 25%;
+    margin-left: 10%;
+    margin-top: 18%;
+    text-align: center;
+    border-radius: 15%;
+    padding: 2%;
+
+}
+
+.formulario form input {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: whitesmoke;
+    padding: 3% 2% 3% 2%;
+    text-align: center;
+    border: 0;
+}
+
+.formulario form select {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: whitesmoke;
+    padding: 3% 18% 3% 18%;
+    border: 0;
+}
+
+.formulario form fieldset {
+    border: 0;
+}
+
+.formulario form legend {
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.formulario form button {
+    background-color: #42aaeb;
+    color: white;
+    border: 0;
+    padding: 3% 13% 3% 13%;
+}
+
+#inicio form button {
+    background-color: #42aaeb;
+    color: white;
+    border: 0;
+    margin-left: 40%;
+    margin-bottom: 10%;
+    padding: 3% 5% 3% 5%;
+}
+
+#fin form button {
+    background-color: #42aaeb;
+    color: white;
+    border: 0;
+    margin-left: 40%;
+    margin-bottom: 10%;
+    padding: 3% 5% 3% 5%;
+}
+
+#ganador form button {
+    background-color: #42aaeb;
+    color: white;
+    border: 0;
+    margin-left: 35%;
+    margin-bottom: 10%;
+    padding: 3% 5% 3% 5%;
+}
+
+#formbuscadores form {
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 25%;
+    margin-left: 10%;
+    text-align: center;
+    border-radius: 15%;
+    padding: 2%;
+    float: left;
+}
+
+#formbuscadores form input {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: whitesmoke;
+    padding: 3% 2% 3% 2%;
+    text-align: center;
+    border: 0;
+}
+
+#formbuscadores form fieldset {
+    border: 0;
+}
+
+#formbuscadores form legend {
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+#formbuscadores form button {
+    background-color: #42aaeb;
+    color: white;
+    border: 0;
+    padding: 3% 13% 3% 13%;
+}
+
+/* CABECERA HOME
+
+.cabecera {
+    background-color: #44464b;
+    width: 100%;
+    padding-bottom: 10%;
+}
+
+.panel {
+    width: 60%;
+    float: left;
+}
+
+.panel h1 {
+    text-align: center;
+    margin-top: 6%;
+    color: white;
+    margin-right: -50%;
+}
+
+
+.botoncabecera {
+    width: 20%;
+    float: left;
+    text-align: right;
+}
+
+.botoncabecera button {
+    background-color: #42aaeb;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 18%;
+    margin-right: -60%;
+} */
+
+/* CABECERA */
+.cabecera{
+    background-color: #44464b;
+    width: 100%;
+    padding-bottom: 13%;
+}
+
+.logo{
+    width: 15%;
+    float: left;
+}
+
+.logo img{
+    margin-left: 50%;
+    width: 500%;
+    margin-top: 50%;
+}
+
+.indice{
+    width: 55%;
+    float: left;
+    padding-bottom: 3%;
+}
+
+.indice ul{
+    display: flex;
+    padding: 0;
+    list-style: none;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-left: 4%;
+    margin-top: 11%;
+    width: 100%;
+}
+
+.indice li{
+    padding-right: 10%;
+}
+
+.indice a {
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 50%;
+
+  }
+  
+  .indice a:hover, a:active {
+    color: #42aaeb;
+  }
+
+.enter{
+    width: 30%;
+    padding-bottom: 10%;
+    float: left;
+}
+
+.enter button {
+    background-color: #42aaeb;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    margin-top: 18%;
+    margin-left: 10%;
+}
+/* CABECERA */
+
+/* NAV */
+
+.nav {
+    background-color: #bababa;
+    float: left;
+    padding-bottom: 5% ;
+    width: 20%;
+    margin-top: -3%;
+}
+
+
+.nav img {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20%;
+}
+
+.nav p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 25%;
+}
+
+
+#inicio {
+    float: left;
+    width: 30%;
+    margin-left: 8%;
+}
+
+#inicio p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    text-align: center;
+  
+}
+
+#fin {
+    float: left;
+    width: 30%;
+}
+
+
+#fin p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    text-align: center;
+   
+}
+
+.participantes {
+    float: left;
+    width: 30%;
+    margin-left: 8%;
+}
+
+.participantes img {
+    width: 70%;
+    margin-top: 3%;
+
+    border-width: 2px;
+    margin-left: 15%;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+.participantes p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    text-align: center;
+   
+}
+
+.vueltas {
+    float: left;
+    width: 30%;
+}
+
+.vueltas img {
+    width: 70%;
+    margin-top: 3%;
+
+    border-width: 2px;
+    margin-left: 6%;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+.vueltas p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    text-align: center;
+    
+}
+
+#tabBuscador table {
+    width: 50%;
+    background-color: white;
+    float: left;
+    margin-left: 5%;
+}
+
+#tabBuscador th, td {
+    width: 25%;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid;
+
+}
+
+
+.ganador {
+    text-align: center;
+
+}
+
+.ganador h1 {
+    font-size: 50px;
+    color: whitesmoke;
+}
